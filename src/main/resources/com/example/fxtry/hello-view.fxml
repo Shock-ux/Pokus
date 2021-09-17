@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxtry.HelloController">
+   <children>
+      <VBox alignment="CENTER" layoutX="316.0" layoutY="63.0" prefHeight="474.0" prefWidth="369.0" spacing="30.0">
+         <children>
+            <Label text="Count to 50" />
+            <Label fx:id="numLabel" text="..." textAlignment="CENTER" />
+            <Button fx:id="mainButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#StartAction" text="Start" />
+            <Button fx:id="resetButton" mnemonicParsing="false" onAction="#ResetAction" text="Reset count" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>
